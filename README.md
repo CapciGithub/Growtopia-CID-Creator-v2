@@ -1,3 +1,7 @@
+### Whats the latest Growtopia Port?
+
+Currently its: 17258
+
 ### How to use CID-Creator-v2?
 
 * Visit https://console.cloud.google.com/ and click the emoji that in the middle of gift and question mark emoji on right corner.
