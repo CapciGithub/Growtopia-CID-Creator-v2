@@ -1,6 +1,6 @@
 ### Whats the latest Growtopia Port?
 
-* Currently its: 17255
+* Currently its: 17196
 
 ### How to use CID-Creator-v2?
 
