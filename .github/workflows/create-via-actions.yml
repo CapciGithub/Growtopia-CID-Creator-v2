@@ -1,0 +1,15 @@
+name: create growtopia accounts
+on:
+  push:
+    paths:
+      - 'createid'
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: chmod +x createid
+      - run: ./createid
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        title: "Decoded items.dat"
