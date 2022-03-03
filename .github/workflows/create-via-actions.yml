@@ -12,4 +12,3 @@ jobs:
       - run: chmod +x createid
       - run: ./createid
       - uses: "marvinpinto/action-automatic-releases@latest"
-        title: "Decoded items.dat"
