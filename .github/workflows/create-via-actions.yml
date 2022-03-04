@@ -1,9 +1,7 @@
 name: create growtopia accounts
 
 on:
-  push:
-    paths:
-      - 'config.json'
+  workflow_dispatch:
       
 jobs:
   build:
