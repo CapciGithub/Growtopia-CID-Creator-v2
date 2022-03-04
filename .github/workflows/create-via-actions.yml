@@ -1,13 +1,14 @@
 name: create growtopia accounts
+
 on:
   push:
     paths:
-      - 'createid'
-  workflow_dispatch:
+      - 'config.json'
+      
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: chmod +x createid
-      - run: ./createid
+      - run: chmod +x createidv2
+      - run: ./createidv2
