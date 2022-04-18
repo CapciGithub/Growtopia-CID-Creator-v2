@@ -1,3 +1,5 @@
+* New version of CID Creator -> https://github.com/CapciGithub/Growtopia-CID-Creator-v3
+
 ### Whats the latest Growtopia Port?
 
 * Currently its: 17251
